@@ -1,0 +1,51 @@
+<html>
+<head>
+<script>
+<script type="text/javascript">
+//auto expand textarea
+function adjust_textarea(h) {
+    h.style.height = "20px";
+    h.style.height = (h.scrollHeight)+"px";
+}
+</script>
+<link rel="stylesheet" type="text/css" href="Contact.css">
+  <title></title></head>
+<body>
+
+  <div class="row">
+      <div class="col-xs-12" id="navbar">
+              <a href="About.html">About</a>
+              <a href="Portfolio.html">Portfolio</a>
+              <a href="Contact.html">Contact</a>
+      </div>
+
+<div class="formdiv">
+
+  <form class="form-style-4" action="" method="post">
+  <label for="field1">
+  <span>Enter Your Name</span><input type="text" name="field1" required="true" />
+  </label>
+  <label for="field2">
+  <span>Email Address</span><input type="email" name="field2" required="true" />
+  </label>
+  <label for="field3">
+  <span>Short Subject</span><input type="text" name="field3" required="true" />
+  </label>
+  <label for="field4">
+  <span>Message to Us</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+  </label>
+  <label>
+  <span>&nbsp;</span><input type="submit" value="Send Letter" />
+  </label>
+  </form>
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
