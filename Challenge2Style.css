@@ -1,0 +1,419 @@
+.no-gutter {
+   [class*="col-"] {
+       padding-left: 0 !important;
+       padding-right: 0 !important;
+   }
+}
+
+.body{
+  background-color: lightgray;
+}
+
+.container{
+}
+
+/* The navigation bar */
+#navbar {
+    left: 0; /*center and 100% width the div*/
+    right:0; /*center and 100% width the div*/
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    z-index: 1000;
+
+}
+
+/* Links inside the navbar */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.container{
+margin-top: 3.4em;
+}
+
+#About{
+background-color: purple;
+text-align: center;
+height: 25em;
+position: relative;
+}
+
+#p1{
+  position: relative;
+  top: 2em;
+  width: 75%;
+  font-size: 2em;
+  color: white;
+  font-family: Acme, Helvetica, sans-serif;
+}
+
+.introdiv{
+  text-align:center;
+}
+
+.bar{
+  border: 3px gray solid;
+  width: 65%;
+  position: relative;
+  top: 5em;
+  left: 3.5em;
+}
+
+.p2{
+  font-size: 2em;
+  position: relative;
+  top: 1em;
+  right: 4em;
+  color:white;
+  font-family: Acme, Helvetica, sans-serif;
+
+}
+
+#lt1{
+  font-size: 2.9em;
+  position: relative;
+  margin-left: 11em;
+  top: 0.9em;
+  color:white;
+  font-family: Acme, Helvetica, sans-serif;
+}
+
+.logo{
+  display:inline-block;
+  float:right;
+  position:relative;
+  top: -19em;
+  left: 0.5em;;
+  width:25%;
+  height:25%;
+  border-radius: 50%;
+}
+
+#Portfolio{
+background:rgba(122, 119, 119, 0.712);
+height: 65em;
+text-align: center;
+position:relative;
+}
+
+.pic2{
+  position: relative;
+  width: 35%;
+  margin-right: 5em;
+}
+
+.p4{
+  font-size: 3em;
+}
+
+.bar2{
+position: relative;
+border: 2px rgb(255, 255, 255) solid;
+width: 25%;
+left: 15em;
+top: 0.4em;
+}
+
+.bar3{
+  position: relative;
+  border: 2px rgb(255, 255, 255) solid;
+  width: 25%;
+  right: 14em;
+  float:right;
+  top:0.1em;
+}
+
+#lt2{
+position: relative;
+left: 3em;
+top: -0.7em;
+font-size: 3em;
+font-family: Acme, Helvetica, sans-serif;
+}
+
+.pic3{
+  width: 35%;
+  height: 35%;
+
+}
+
+.pic4{
+  position: relative;
+  width: 40%;
+  height: 50%;
+  margin-top: 0.5em;
+ margin-right: 8em;
+}
+
+.pic5{
+  position:relative;
+  width: 35%;
+  height: 35%;
+  right: 4em;
+}
+#Contact{
+background-color: purple;
+position:relative;
+}
+
+.formdiv{
+  float:left;
+  position: relative;
+  top: -28em;
+  height: 1em;
+}
+
+.p6{
+  text-align:center;
+  color: white;
+  font-size: 3em;
+  font-family:Acme, Helvetica, sans-serif;
+}
+
+.bar5{
+  border: 3px gray solid;
+  width: 65%;
+  position: relative;
+  top: 1em;
+  left: 10em;
+}
+
+#lt3{
+  font-size: 2.9em;
+  position: relative;
+  margin-left: 2.2em;
+  top: -0.5em;
+  color:white;
+  font-family: Acme, Helvetica, sans-serif;
+}
+
+#lt4{
+  font-size: 2.9em;
+  position: relative;
+  margin-left: 18.7em;
+  top: -2.2em;
+  color:white;
+  font-family: Acme, Helvetica, sans-serif;
+}
+
+.contacttextdiv{
+  width: 10em;
+  position: relative;
+  left: 23em;
+  top: -3em;
+  font-size:  2em;
+  color: lightgray;
+  font-family: Acme, Helvetica, sans-serif;
+}
+
+input, textarea {
+padding: 9px;
+border: solid 1px #E5E5E5;
+outline: 0;
+font: normal 13px/100% Verdana, Tahoma, sans-serif;
+width: 200px;
+background: #FFFFFF;
+}
+
+textarea
+{
+width: 400px;
+max-width: 400px;
+height: 150px;
+line-height: 150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+border-color: #C9C9C9;
+}
+
+.form label {
+margin-left: 10px;
+color: #cecdcd;
+}
+
+.submit input {
+width: auto;
+padding: 9px 15px;
+background: #617798;
+border: 0;
+font-size: 14px;
+color: #FFFFFF;
+}
+
+input, textarea {
+box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+input, textarea {
+background: -webkit-gradient(linear, left top, left 25, from(#EEEEEE), to(#FFFFFF));
+background: -moz-linear-gradient(top, #EEEEEE), #FFFFFF 25px);
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+.submit input {
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+
+#bottombar1{
+    background-color:grey;
+    color:white;
+    position:absolute;
+    left:0;
+    right: 0;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 55%;
+    position:relative;
+    left:
+}
+
+/* Add a hover effect if you want */
+.fab:hover {
+    opacity: 0.7;
+}
+
+.sharelinks{
+  position:relative;
+  top:  -7em;
+  left: 91em;
+  width: 20em;
+  padding: 1em;
+}
+
+.fa-facebook{
+  color:#468af0;
+  font-size: 2.5em;
+  margin-right: 0.5em;
+  text-decoration: none;
+}
+
+.fa-twitter{
+ color: lightblue;
+ font-size: 2.5em;
+ margin-right: 0.5em;
+ text-decoration: none;
+}
+
+.fa-github{
+  font-size: 2.5em;
+  color: #333;
+  margin-right: 0.5em;
+  text-decoration: none;
+}
+
+.fa-linkedin{
+  font-size: 2.5em;
+  color: #1059c7;
+  margin-right:0em;
+  text-decoration: none;
+}
+
+.fa-coffee{
+  font-size: 1.3em;
+  color:white;
+}
+
+.fa-archive{
+  color:white;
+  font-size:1.3em;
+  margin-left: 0.2em;
+}
+
+.arrowdiv{
+  position: relative;
+  left: 20em;
+  top: 3em;
+  width: 45em;
+  height: 2em;
+}
+
+.fa-arrow-right{
+  color:red;
+  font-size: 1.5em;
+  margin-left: 5em;
+}
+
+.p7{
+  text-align: left;
+  font-size: 1.7em;
+  font-family: Acme, Helvetica, sans-serif;
+  position: relative;
+  top: 2.5em;
+  left: 3.5em;
+  width:
+}
+
+.p8{
+text-align: right;
+position: relative;
+font-family: Acme, Helvetica, sans-serif;
+font-size: 1.7em;
+top: -3.5em;
+right: 4.8em;
+}
+
+.p9{
+position:relative;
+top: 6em;
+left: -2em;
+color:white;
+text-decoration: none;
+}
+
+.div10{
+  width: 20em;
+  position:relative;
+  left: 6em;
+  top: -3.5em;
+  font-family: Acme, Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+
+.fa-archive{
+  margin-right: 0.5em;
+}
+
+.fa-coffee{
+  margin-left: 0.5em;
+}
+
+.bottombar2{
+  background-color: purple;
+  height: 5em;
+}
+
+#p10{
+  color:white;
+  text-align: center;
+  position: relative;
+  top: 1em;
+  font-size: 1.5em;
+}
